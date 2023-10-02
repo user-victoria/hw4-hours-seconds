@@ -5,10 +5,10 @@
 // записати обчислене значення у змінну;
 // вивести цю змінну користувачеві через alert.
 
-let hours = prompt('Write an hour to change it to seconds');
+const hours = prompt('Write an hour to change it to seconds');
 
 if (Number(hours)) {
-    let seconds = hours * 3600;
+    const seconds = hours * 3600;
     alert(`${hours} hours = ${seconds} seconds`);
 }
 else {
